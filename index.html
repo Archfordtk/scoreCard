@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="index.css"
+    <title>Footballscorecard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Score Card</h1>
+
+        <div class="score-card">    <!--Use for changing background Img-->
+    <!--Home Points-->
+        <div class="container-home">
+                <h2 id ="home">Home</h2>
+                <h4 id="home-points">0</h4>
+            <!--Point buttons-->
+                <button id="one-Point" onclick = "homepointOne()"> 1+ </button>
+                <button id="two-Point" onclick = "homepointTwo()"> 2+ </button>
+                <button id="three-Point" onclick = "homepointThree()"> 3+ </button>
+            <!--Point buttons Ends-->   
+        </div>
+    <!--Home Points Ends-->
+
+    <!--Guest points start-->
+        <div class="container-guest">
+            
+                    <h3 id ="guest">Guest</h3>
+                    <h5 id="guest-points">0</h5>
+
+                    <!--Point buttons-->
+                    <button id="one-Point" onclick = "awaypointOne()"> 1+ </button>
+                    <button id="two-Point" onclick = "awaypointTwo()"> 2+ </button>
+                    <button id="three-Point" onclick = "awaypointThree()"> 3+ </button>
+                <!--Point buttons Ends-->   
+                
+        </div>
+    <!--Guest points Ends-->
+
+    <footer>Made by Archie.tkay</footer>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

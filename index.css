@@ -1,0 +1,100 @@
+@font-face {
+    font-family: tharlon;
+    src: url("fonts//Tharlon-Regular.ttf");
+}
+
+@font-face {
+    font-family: timer;
+    src: url("fonts/CursedTimerULiL.ttf");
+}
+
+body{
+    text-align: center;
+    color: white;
+}
+
+/*Score-card start*/
+.score-card{
+    border: solid yellow 2px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image:url("C://Users//Ray//Desktop//score-card//images (30).jpeg");
+    background-size: cover;
+}
+
+.score-card{
+   width: 700px;
+   min-height: 387.98px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/*score card ends*/
+
+
+/*Home and guest headers*/
+
+#guest,#home{
+    font-family: "tharlon",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 35.9px;
+     
+}
+/*Home and guest headers end*/
+
+#home-points,#guest-points{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    font-family: timer,'Times New Roman', Times, serif;
+    font-size: 26px;
+    background-color: white;
+}
+
+#guest{
+    margin-top: 20px;
+}
+
+#home-points,#guest-points{
+
+    padding: 4px 0px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+/*Scorde-card Ends*/
+
+/*Buttons Start*/
+button{
+    padding:13px 27px ;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ 
+
+ 
+/*Buttons End*/
+
+/* guest and home containers for mobile layout start*/
+.container-home,.container-guest {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* guest and home containers for mobile layout end*/
